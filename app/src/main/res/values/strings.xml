@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Speak4Me</string>
+
+    <string name="label_name">SPEAK4ME</string>
+
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+    <string name="textConfirmarSenha">Confirmar Senha</string>
+    <string name="textSenha">Senha</string>
+    <string name="textIdioma">Idioma</string>
+    <string name="textEmail">E-mail</string>
+    <string name="textNome">Nome Completo</string>
+
+
+    <string-array name="Idioma">
+        <item> Português </item>
+    </string-array>
+
+    <string-array name="Categoria">
+        <item> Alimentação </item>
+        <item> Transporte </item>
+        <item> Compras </item>
+    </string-array>
+
+
+
+</resources>

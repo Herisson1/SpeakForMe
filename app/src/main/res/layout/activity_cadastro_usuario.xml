@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:scrollbars="vertical">-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_wallpaper">
+
+    <EditText
+        android:id="@+id/nomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:drawableLeft="@drawable/ic_action_user_name"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <Spinner
+        android:id="@+id/idiomaUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:hint="Idioma"
+        android:layout_below="@+id/tvIdioma"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/senhaUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSenha"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:maxLength="23"
+        android:textSize="16dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/confSenhaUsario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvConfirmarSenha"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_refresh"
+        android:ems="10"
+        android:hint="Confirme a sua senha"
+        android:inputType="textPassword"
+        android:maxLength="23"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btCadUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confSenhaUsario"
+        android:layout_centerHorizontal="true"
+        android:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/btHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btCadUsuario"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="Voltar"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="text|textPersonName"
+        android:text="Cadastro"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/emailUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvEmail"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nomeUsuario"
+        android:layout_marginTop="125dp"
+        android:text="@string/textNome"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nomeUsuario"
+        android:layout_below="@+id/nomeUsuario"
+        android:text="@string/textEmail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvIdioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emailUsuario"
+        android:text="@string/textIdioma"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/idiomaUsuario"
+        android:text="@string/textSenha"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvConfirmarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/senhaUsuario"
+        android:text="@string/textConfirmarSenha"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+<!--</ScrollView>-->
+

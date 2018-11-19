@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/groupSuperior"
+        android:checkableBehavior="single">
+
+    <item android:id="@+id/menuInserirIdioma"
+        android:title="Inserir Idioma"
+        android:icon="@drawable/ic_add_black_24dp"/>
+
+    <item android:id="@+id/menuEditIdioma"
+          android:title="Editar Idioma"
+          android:icon="@drawable/ic_edit_black_24dp"/>
+
+    <item android:id="@+id/menuInserirExpressao"
+          android:title="Inserir Expressão"
+          android:icon="@drawable/ic_add_black_24dp"/>
+
+    <item android:id="@+id/menuEditExpressao"
+          android:title="Editar Expressão"
+          android:icon="@drawable/ic_edit_black_24dp"/>
+
+    <item android:id="@+id/menuConfiguracoes"
+          android:title="Configurações"
+          android:icon="@drawable/ic_build_black_24dp"/>
+    </group>
+
+    <group android:title="Outros">
+
+    <item android:id="@+id/menuSair"
+          android:title="Sair"
+          android:icon="@drawable/ic_arrow_back_black_24dp"/>
+
+    </group>
+
+</menu>
